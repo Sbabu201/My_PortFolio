@@ -19,7 +19,7 @@ const HomePage = () => {
                     </p>
                 </div>
                 <div className='text-2xl px-10 pt-4 font-semibold '>What I Do !</div>
-                <div className='w-full h-screen flex md:flex-wrap fl    ex-col '>
+                <div className='w-full h-screen flex md:flex-wrap flex-col '>
                     {
                         aboutSection.map((item, index) => (
 
