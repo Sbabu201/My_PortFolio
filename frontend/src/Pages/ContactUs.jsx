@@ -41,18 +41,18 @@ function ContactUs() {
     };
 
     return (
-        <div className='w-full h-screen flex justify-center overflow-hidden items-center custom-scrollbar '>
+        <div className='w-full h-screen flex justify-center overflow-y-auto items-center custom-scrollbar '>
             <div className=' mt-20 h-[90%] w-full mr-4   bg-white rounded-lg shadow-md'>
                 <div className='w-full p-10 flex  items-center gap-8 '>
                     <span className='text-4xl font-bold'>Contact Me</span>
                     <div className=' font-bold border-b-2 w-60 border-blue-300'></div>
                 </div>
                 <div className='w-full px-32     flex flex-col   gap-4 '>
-                    <span className='text-gray-300 text-lg font-bold'>Contact Me To Discuss And Collaborate.</span>
+                    <span className='text-gray-300 md:text-lg text-xs font-bold'>Contact Me To Discuss And Collaborate.</span>
                     {/* <span className='text-lg font-bold w-full '> Ready to Discuss And communicate</span> */}
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2  h-[80%] items-start py-10  justify-evenly px-10 md:px-44'>
-                    <img src={contactusbg} alt='contact' className="w-[300px] mr-10" />
+                    <img src={contactusbg} alt='contact' className="w-[300px] mr-10 " />
                     <div className='w-full'>
                         <div className='flex flex-col '>
                             <label className='text-gray-400 '>Email</label>
