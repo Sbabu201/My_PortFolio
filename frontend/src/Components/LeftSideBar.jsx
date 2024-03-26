@@ -4,6 +4,7 @@ import fb from "../assets/fb.png"
 import insta from "../assets/insta3.png"
 import git from "../assets/git2.png"
 import linledin from "../assets/linkedin2.png"
+import resume from "../assets/resume.pdf"
 import { FcPhone, FcFeedback, FcCalendar, FcDownload, FcList } from "react-icons/fc";
 import { FaLocationDot } from "react-icons/fa6";
 import RightSideBar from './RightSideBar'
@@ -32,10 +33,11 @@ const LeftSideBar = () => {
                         </span>
                     </div>
                     <div className='flex justify-evenly mt-4 w-[70%] h-10 '>
-                        <img src={fb} className='object-cover w-6 h-6' alt="" />
-                        <img src={insta} className='object-cover w-10 h-6' alt="" />
-                        <img src={git} className='object-cover w-6 h-6' alt="" />
-                        <img src={linledin} className='object-cover w-6 h-6' alt="" />
+                        <a href="https://www.facebook.com/soumya.babu.9634" target='blank'><img src={fb} className='object-cover w-6 h-6' alt="" /></a>
+                        <a href="https://www.instagram.com/_babu.55_/" target='blank'><img src={insta} className='object-cover w-10 h-6' alt="" /></a>
+                        <a href="https://github.com/Sbabu201" target='blank'><img src={git} className='object-cover w-6 h-6' alt="" /></a>
+                        <a href="https://www.linkedin.com/in/soumya-sundar-mohapatra-a59053265/" target='blank'><img src={linledin} className='object-cover w-6 h-6' alt="" /></a>
+
 
 
                     </div>
@@ -66,10 +68,10 @@ const LeftSideBar = () => {
                         </div>
 
                     </div>
-                    <div className='mt-10 w-full h-12 flex justify-center items-center'>
 
-                        <button className='bg-blue-500 hover:bg-blue-900 text-white font-bold rounded-md h-full w-1/2 flex px-2 justify-start gap-2 items-center text-xs'>  <FcDownload size={22} />DOWNLOAD-CV</button>
-                    </div>
+
+                    <a href={resume} className='mt-10 w-full h-12 flex justify-center items-center' download="Resume" > <button className='bg-blue-500 hover:bg-blue-900 text-white font-bold rounded-md h-full w-1/2 flex px-2 justify-start gap-2 items-center text-xs'>  <FcDownload size={22} />DOWNLOAD-CV</button></a>
+
                 </div>
             </div>
         </div>
