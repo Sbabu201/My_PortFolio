@@ -32,10 +32,13 @@ function ContactUs() {
             } else {
                 toast.error("Error occurred while sending message");
             }
+
         } catch (error) {
             console.error('Error:', error);
             toast.error("Error occurred while sending message");
         } finally {
+            setEmail("");
+            setMessage("");
             setIsLoading(false); // Hide loader after the operation is complete
         }
     };
@@ -51,7 +54,7 @@ function ContactUs() {
                     <span className='text-gray-300 md:text-lg text-xs font-bold'>Contact Me To Discuss And Collaborate.</span>
                     {/* <span className='text-lg font-bold w-full '> Ready to Discuss And communicate</span> */}
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2  h-[80%] items-start py-10  justify-evenly px-10 md:px-44'>
+                <div className='flex flex-col md:flex-row   h-[80%] items-start py-10  justify-between px-10 md:px-44'>
                     <img src={contactusbg} alt='contact' className="w-[300px] mr-10 " />
                     <div className='w-full'>
                         <div className='flex flex-col '>
