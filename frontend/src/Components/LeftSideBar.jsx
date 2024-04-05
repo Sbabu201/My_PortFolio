@@ -4,7 +4,7 @@ import fb from "../assets/fb.png"
 import insta from "../assets/insta3.png"
 import git from "../assets/git2.png"
 import linledin from "../assets/linkedin2.png"
-import resume from "../assets/resume.pdf"
+import resume from "../assets/cv.pdf"
 import { FcPhone, FcFeedback, FcCalendar, FcDownload, FcList } from "react-icons/fc";
 import { FaLocationDot } from "react-icons/fa6";
 import RightSideBar from './RightSideBar'

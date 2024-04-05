@@ -79,18 +79,18 @@ export const aboutSection = [
         title: 'Back-end Developer',
         desc: 'Expert in BackEnd Data Handling With Efficient Management'
     },
-    {
-        id: 3,
-        image: 'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
-        title: 'Back-end Developer',
-        desc: 'Expert in BackEnd Data Handling With Efficient Management'
-    },
-    {
-        id: 4,
-        image: 'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
-        title: 'Back-end Developer',
-        desc: 'Expert in BackEnd Data Handling With Efficient Management'
-    },
+    // {
+    //     id: 3,
+    //     image: 'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
+    //     title: 'Back-end Developer',
+    //     desc: 'Expert in BackEnd Data Handling With Efficient Management'
+    // },
+    // {
+    //     id: 4,
+    //     image: 'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
+    //     title: 'Back-end Developer',
+    //     desc: 'Expert in BackEnd Data Handling With Efficient Management'
+    // },
 ]
 
 export const skillsList = [
