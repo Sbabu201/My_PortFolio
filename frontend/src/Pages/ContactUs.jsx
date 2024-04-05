@@ -25,7 +25,7 @@ function ContactUs() {
         };
 
         try {
-            const response = await fetch("/send-email", options);
+            const response = await fetch("https://my-portfolio-server-7zjh.onrender.com/send-email", options);
             console.log('response', response)
             if (response.ok) {
                 toast.success("Message sent successfully");
