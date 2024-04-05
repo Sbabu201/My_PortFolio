@@ -70,13 +70,13 @@ export const aboutSection = [
     {
         id: 1,
         image: 'https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=',
-        title: 'Frontend Developer',
+        title: 'Frontend Development',
         desc: 'Expert in FrontEnd Responsive web designing'
     },
     {
         id: 2,
         image: 'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
-        title: 'Back-end Developer',
+        title: 'Back-end Development',
         desc: 'Expert in BackEnd Data Handling With Efficient Management'
     },
     // {
