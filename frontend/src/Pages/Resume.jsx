@@ -12,7 +12,7 @@ const Resume = () => {
                 </div>
 
                 <div className='flex md:flex-row flex-col justify-evenly'>
-                    <div className='md:w-1/3 w-full h-fit flex flex-col '>
+                    <div className='md:w-1/3 w-full  h-fit flex flex-col '>
 
                         <div className='flex gap-4 px-4'>
                             <FcGraduationCap size={32} />
@@ -34,7 +34,7 @@ group md:hover:bg-blue-600 rounded-lg py-2">
                             ))
                         }
                     </div>
-                    <div className='md:w-1/3 w-full h-fit flex flex-col '>
+                    <div className='md:w-1/3 w-full h-fit  flex flex-col '>
 
                         <div className='flex gap-4 px-4'>
                             <FcBusiness size={32} />
@@ -44,7 +44,7 @@ group md:hover:bg-blue-600 rounded-lg py-2">
                         {
                             experienceSection.map((item, index) => (
 
-                                <div key={index} className="flex  relative w-full h-32 gap-2 px-4 justify-center items-center flex-col m-2
+                                <div key={index} className="flex  relative w-full h-60 gap-2 px-4 justify-center  flex-col m-2
                 group md:hover:bg-blue-600 rounded-lg py-2">
                                     <img src={item.image} alt='item' className="w-[80px] rounded-lg h-[80px] object-cover" />
                                     <h1 className='font-bold md:group-hover:text-white'>{item.title}</h1>

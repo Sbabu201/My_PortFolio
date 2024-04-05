@@ -55,13 +55,13 @@ export const experienceSection = [
         id: 1,
         image: okcl,
         title: 'intern',
-        desc: 'Building RealWorld Projects'
+        desc: 'As a full-stack developer, I engaged in end-to-end development projects, proficiently utilizing React for frontend and Node.js for backend, ensuring cohesive integration and seamless functionality across the stack.'
     },
     {
         id: 2,
-        image: okcl,
+        image: "https://imgs.search.brave.com/XGTObvsn2rVzGe-0R-e4YO4f_xEC5QZ2oEut5eXsb-Q/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/a3BpbWctcHJvZC5r/aWRwYXNzLmNvbS9s/b2dvLTAtMzAwL2tp/ZHBhc3MtcHJvdmlk/ZXJzL0xBLU9DQUMt/TG9nby5wbmc",
         title: 'intern',
-        desc: 'Learning Java'
+        desc: 'Motivated and skilled Java Developer Intern with a passion for software development and a strong foundation in Java programming. Eager to gain hands-on experience in building robust and scalable software solutions. Committed to learning and collaborating with experienced developers to contribute to impactful projects.'
     },
 
 ]
