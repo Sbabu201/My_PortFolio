@@ -25,7 +25,7 @@ function ContactUs() {
         };
 
         try {
-            const response = await fetch("https://my-portfolio-1f763-default-rtdb.firebaseio.com/UserData.json", options);
+            const response = await fetch("/send-email", options);
             console.log('response', response)
             if (response.ok) {
                 toast.success("Message sent successfully");
@@ -44,19 +44,22 @@ function ContactUs() {
     };
 
     return (
-        <div className='w-full h-screen flex justify-center overflow-y-auto items-center custom-scrollbar '>
-            <div className=' mt-20 h-[90%] w-full mr-4   bg-white rounded-lg shadow-md'>
-                <div className='w-full p-10 flex  items-center gap-8 '>
+        <div className='w-full h-full flex justify-center overflow-y-auto items-center custom-scrollbar '>
+            <div className=' mt-20 h-[90%] w-full mr-4 flex flex-col  bg-white rounded-lg shadow-md'>
+                <div className='w-full p-10 flex h-[10%] items-center gap-8 '>
                     <span className='text-4xl font-bold'>Contact Me</span>
                     <div className=' font-bold border-b-2 w-60 border-blue-300'></div>
                 </div>
-                <div className='w-full px-32     flex flex-col   gap-4 '>
+                <div className='w-full md:px-32  px-10  h-[10%] flex flex-col   gap-4 '>
                     <span className='text-gray-300 md:text-lg text-xs font-bold'>Contact Me To Discuss And Collaborate.</span>
                     {/* <span className='text-lg font-bold w-full '> Ready to Discuss And communicate</span> */}
                 </div>
-                <div className='flex flex-col md:flex-row   h-[80%] items-start py-10  justify-between px-10 md:px-44'>
-                    <img src={contactusbg} alt='contact' className="w-[300px] mr-10 " />
-                    <div className='w-full'>
+                <div className='flex flex-col md:flex-row items-center gap-2 justify-evenly h-[80%]   px-10 py-20'>
+                    <div className='md:w-[50%] w-[40%] h-[40%] md:h-full'>
+                        <img src={contactusbg} alt='contact' className="w-[100%] mr-10 md:h-40% object-cover " />
+
+                    </div>
+                    <div className=' md:w-[50%] w-full h-[60%] md:h-full flex flex-col justify-center'>
                         <div className='flex flex-col '>
                             <label className='text-gray-400 '>Email</label>
                             <input
