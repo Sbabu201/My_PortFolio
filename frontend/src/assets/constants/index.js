@@ -167,7 +167,7 @@ export const portfolio = [
         type: 'website',
         desc: "App Build using React and Node js With Proper Shopping management where you can buy and view all products ",
         imageUrl: "https://img.freepik.com/free-photo/photocomposition-horizontal-online-shopping-banner_23-2151201763.jpg?t=st=1708668576~exp=1708672176~hmac=82e0aac294e6451c15ea5877cffb4d511cb10c2b4bdc5259573d786cf5688a26&w=1380",
-        website: "https://github.com/Sbabu201/e-commerce"
+        website: "https://e-commerce-pi-two.vercel.app/"
     },
     {
         id: 3,
@@ -175,7 +175,7 @@ export const portfolio = [
         type: 'website',
         desc: "Social media App Build using React and Nodejs and socket.io  where you can chat in realtime and explore the app  ",
         imageUrl: chat,
-        website: "https://github.com/Sbabu201"
+        website: "https://chat-app-client-ebon.vercel.app/"
     },
 
 
