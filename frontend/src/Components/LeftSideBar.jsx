@@ -12,7 +12,7 @@ import AboutUs from '../Pages/AboutUs'
 const LeftSideBar = () => {
     const [togle, setTogle] = useState(false);
     return (
-        <div className='w-full h-screen '>
+        <div className='w-full h-screen flex justify-center md:justify-start '>
             {/* <div className=' justify-end items-end w-full pr-5 fixed md:hidden flex z-30 '>
                 <button onClick={() => setTogle(state => !state)} ><FcList size={28} /></button>
                 <AboutUs />

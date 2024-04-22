@@ -19,7 +19,7 @@ const Route = () => {
                     <div className='flex md:hidden h-[10%]'>
                         <AboutUs />
                     </div>
-                    <div className='h-[90%] md:h-full'>
+                    <div className='h-[90%] flex md:justify-normal justify-center md:h-full'>
                         <LeftSideBar />
                     </div>
 
